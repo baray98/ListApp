@@ -21,7 +21,11 @@
                 <Menu text="File">
                     <MenuItem text="New..." onAction="#showNewDialog"></MenuItem>
                     <SeparatorMenuItem></SeparatorMenuItem>
-                    <MenuItem text="Exit"></MenuItem>
+                    <MenuItem text="Exit" onAction="#close"></MenuItem>
+                </Menu>
+                <padding></padding>
+                <Menu text="Help">
+                    <MenuItem text="About" onAction="#about"></MenuItem>
                 </Menu>
             </MenuBar>
             <ToolBar>

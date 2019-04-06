@@ -2,6 +2,7 @@ package com.bryan.todolist;
 
 import com.bryan.todolist.datamodel.ToDoData;
 import com.bryan.todolist.datamodel.ToDoItem;
+import javafx.application.Platform;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.transformation.FilteredList;
@@ -257,5 +258,33 @@ public class Controller {
 
             });
         }
+    }
+
+    public void close ( ActionEvent actionEvent ) {
+        Platform.exit ();
+        System.exit ( 0 );
+    }
+
+    public void about ( ActionEvent actionEvent ) {
+
+        Dialog<ButtonType> dialog = new Dialog<>();
+        dialog.initOwner(mainBorderPane.getScene().getWindow());
+        dialog.setTitle("about");
+        dialog.setHeaderText("Application : To do List ");
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        fxmlLoader.setLocation(getClass().getResource("about.fxml"));
+
+        try{
+            dialog.getDialogPane().setContent(fxmlLoader.load());
+        }
+        catch (IOException e)
+        {
+            System.out.println("Can not load dialog");
+            e.printStackTrace();
+            return;
+        }
+
+        dialog.getDialogPane().getButtonTypes().add(ButtonType.OK);
+        dialog.showAndWait ();
     }
 }

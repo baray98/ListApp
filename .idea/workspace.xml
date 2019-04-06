@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Added about box">
+      <change afterPath="$PROJECT_DIR$/src/com/bryan/todolist/About.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bryan/todolist/AboutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bryan/todolist/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bryan/todolist/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bryan/todolist/mainwindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bryan/todolist/mainwindow.fxml" afterDir="false" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,21 +68,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="249" column="9" lean-forward="true" selection-start-line="249" selection-start-column="9" selection-end-line="249" selection-end-column="9" />
+            <state relative-caret-position="402">
+              <caret line="287" column="30" selection-start-line="287" selection-start-column="30" selection-end-line="287" selection-end-column="30" />
+              <folding>
+                <element signature="e#3317#3318#0" expanded="true" />
+                <element signature="e#3362#3363#0" expanded="true" />
+                <element signature="e#8888#8889#0" expanded="true" />
+                <element signature="e#8981#8982#0" expanded="true" />
+                <element signature="e#9172#9173#0" expanded="true" />
+                <element signature="e#9223#9224#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/About.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/todoitemdialog.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/DialogController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/mainwindow.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="29" column="100" selection-start-line="29" selection-start-column="100" selection-end-line="29" selection-end-column="100" />
+            <state relative-caret-position="-47">
+              <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/AboutController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -85,6 +142,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -98,6 +156,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -113,15 +174,17 @@
         <option value="$PROJECT_DIR$/src/com/bryan/todolist/DialogController.java" />
         <option value="$PROJECT_DIR$/src/com/bryan/todolist/mainwindow.fxml" />
         <option value="$PROJECT_DIR$/src/com/bryan/todolist/Controller.java" />
+        <option value="$PROJECT_DIR$/src/com/bryan/todolist/About.fxml" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="85" />
-    <option name="width" value="1144" />
-    <option name="height" value="789" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="745" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -130,18 +193,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ListApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="ListApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ListApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ListApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ListApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ListApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="todolist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -154,10 +228,10 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554526833283" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554582090283" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -280,9 +354,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1280" height="954" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="745" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21312805" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21647818" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -291,7 +365,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27932286" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27871364" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39903265" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -302,7 +376,7 @@
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" weight="0.32889965" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32889965" />
+      <window_info active="true" anchor="bottom" id="Messages" order="13" visible="true" weight="0.32771823" />
       <window_info anchor="bottom" id="Terminal" order="14" weight="0.32889965" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -320,19 +394,15 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="Added about box" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added about box" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../javafx-sdk-11.0.2/lib/javafx.base.jar!/javafx/beans/value/ChangeListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../javafx-sdk-11.0.2/lib/javafx.base.jar!/javafx/beans/value/ChangeListener.class" />
     <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -354,21 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/todoitemdialog.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/DialogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/datamodel/ToDoItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -383,84 +438,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/d2l-icons.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/html-editor/align-center.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/html-editor/new-line.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/new-window.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/navigate.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/news.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier2/news.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier3/menu.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier3/alert.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier2/location.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/tools.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/file-document.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/outcomes.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/online-rooms.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/online.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/no-entry.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/tier1-icons.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/LICENSE">
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/d2l-icons.html" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/html-editor/align-center.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/html-editor/new-line.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/new-window.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/navigate.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/news.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier2/news.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier3/menu.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier3/alert.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier2/location.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/tools.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/file-document.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/outcomes.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/online-rooms.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/online.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/no-entry.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/tier1-icons.html" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/LICENSE" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/maven/org.webjars.bowergithub.brightspaceui/icons/pom.properties" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/maven/org.webjars.bowergithub.brightspaceui/icons/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/todoitemdialog.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1710" />
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/AboutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/maven/org.webjars.bowergithub.brightspaceui/icons/pom.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/maven/org.webjars.bowergithub.brightspaceui/icons/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/DialogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-585" />
+        <state relative-caret-position="78">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/mainwindow.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="29" column="100" selection-start-line="29" selection-start-column="100" selection-end-line="29" selection-end-column="100" />
+        <state relative-caret-position="-47">
+          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="249" column="9" lean-forward="true" selection-start-line="249" selection-start-column="9" selection-end-line="249" selection-end-column="9" />
+        <state relative-caret-position="402">
+          <caret line="287" column="30" selection-start-line="287" selection-start-column="30" selection-end-line="287" selection-end-column="30" />
+          <folding>
+            <element signature="e#3317#3318#0" expanded="true" />
+            <element signature="e#3362#3363#0" expanded="true" />
+            <element signature="e#8888#8889#0" expanded="true" />
+            <element signature="e#8981#8982#0" expanded="true" />
+            <element signature="e#9172#9173#0" expanded="true" />
+            <element signature="e#9223#9224#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/About.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -505,7 +557,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>10</last-edited>
+          <last-edited>9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -522,6 +574,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
