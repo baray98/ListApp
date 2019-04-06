@@ -60,20 +60,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="249" column="9" lean-forward="true" selection-start-line="249" selection-start-column="9" selection-end-line="249" selection-end-column="9" />
+            <state relative-caret-position="232">
+              <caret line="231" column="33" selection-start-line="231" selection-start-column="33" selection-end-line="231" selection-end-column="33" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ListApp.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/mainwindow.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="435">
               <caret line="29" column="100" selection-start-line="29" selection-start-column="100" selection-end-line="29" selection-end-column="100" />
             </state>
           </provider>
@@ -99,6 +104,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -122,6 +130,7 @@
     <option name="width" value="1144" />
     <option name="height" value="789" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -135,14 +144,18 @@
           <expand>
             <path>
               <item name="ListApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ListApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ListApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,7 +295,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1280" height="954" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21312805" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21636952" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -383,84 +396,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/d2l-icons.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/html-editor/align-center.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/html-editor/new-line.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/new-window.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/navigate.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/news.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier2/news.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier3/menu.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier3/alert.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier2/location.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/tools.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/file-document.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/outcomes.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/online-rooms.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/online.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/no-entry.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/tier1-icons.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/LICENSE">
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/d2l-icons.html" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/html-editor/align-center.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/html-editor/new-line.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/new-window.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/navigate.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/news.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier2/news.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier3/menu.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier3/alert.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier2/location.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/tools.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/file-document.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/outcomes.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/online-rooms.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/online.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/images/tier1/no-entry.svg" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/tier1-icons.html" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/resources/webjars/d2l-icons/LICENSE" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/maven/org.webjars.bowergithub.brightspaceui/icons/pom.properties" />
+    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/maven/org.webjars.bowergithub.brightspaceui/icons/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1710" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/maven/org.webjars.bowergithub.brightspaceui/icons/pom.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/icons-5.1.3.jar!/META-INF/maven/org.webjars.bowergithub.brightspaceui/icons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-585" />
+        <state relative-caret-position="232">
+          <caret line="231" column="33" selection-start-line="231" selection-start-column="33" selection-end-line="231" selection-end-column="33" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/mainwindow.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="435">
           <caret line="29" column="100" selection-start-line="29" selection-start-column="100" selection-end-line="29" selection-end-column="100" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bryan/todolist/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="249" column="9" lean-forward="true" selection-start-line="249" selection-start-column="9" selection-end-line="249" selection-end-column="9" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ListApp.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
