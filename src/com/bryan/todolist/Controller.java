@@ -43,6 +43,8 @@ public class Controller {
     private ContextMenu listContextMenu;
     @FXML
     private ToggleButton filterToggleButton;
+    @FXML
+    private ToggleButton pastDueToggleButton;
 
     private FilteredList filteredList;
 
@@ -239,6 +241,9 @@ public class Controller {
 
 
     public void handelFilter(ActionEvent actionEvent) {
+
+        pastDueToggleButton.setSelected ( false );
+
         if (filterToggleButton.isSelected()) {
             filteredList.setPredicate(new Predicate<ToDoItem>() {
                 @Override
@@ -270,7 +275,6 @@ public class Controller {
         Dialog<ButtonType> dialog = new Dialog<>();
         dialog.initOwner(mainBorderPane.getScene().getWindow());
         dialog.setTitle("about");
-        dialog.setHeaderText("Application : To do List ");
         FXMLLoader fxmlLoader = new FXMLLoader();
         fxmlLoader.setLocation(getClass().getResource("about.fxml"));
 
@@ -286,5 +290,30 @@ public class Controller {
 
         dialog.getDialogPane().getButtonTypes().add(ButtonType.OK);
         dialog.showAndWait ();
+    }
+
+    public void handelPastDue ( ActionEvent actionEvent ) {
+        filterToggleButton.setSelected ( false );
+
+
+        if (pastDueToggleButton.isSelected()) {
+            filteredList.setPredicate(new Predicate<ToDoItem>() {
+                @Override
+                public boolean test(ToDoItem toDoItem) {
+                    return toDoItem.getDeadLine().isAfter ( LocalDate.now());
+                }
+
+            });
+
+        }
+        else{
+            filteredList.setPredicate(new Predicate<ToDoItem>() {
+                @Override
+                public boolean test(ToDoItem toDoItem) {
+                    return true;
+                }
+
+            });
+        }
     }
 }
