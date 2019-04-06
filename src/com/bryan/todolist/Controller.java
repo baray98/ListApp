@@ -2,6 +2,7 @@ package com.bryan.todolist;
 
 import com.bryan.todolist.datamodel.ToDoData;
 import com.bryan.todolist.datamodel.ToDoItem;
+import javafx.application.Platform;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.transformation.FilteredList;
@@ -42,6 +43,8 @@ public class Controller {
     private ContextMenu listContextMenu;
     @FXML
     private ToggleButton filterToggleButton;
+    @FXML
+    private ToggleButton pastDueToggleButton;
 
     private FilteredList filteredList;
 
@@ -238,11 +241,66 @@ public class Controller {
 
 
     public void handelFilter(ActionEvent actionEvent) {
+
+        pastDueToggleButton.setSelected ( false );
+
         if (filterToggleButton.isSelected()) {
             filteredList.setPredicate(new Predicate<ToDoItem>() {
                 @Override
                 public boolean test(ToDoItem toDoItem) {
                     return toDoItem.getDeadLine().equals(LocalDate.now());
+                }
+
+            });
+
+        }
+        else{
+            filteredList.setPredicate(new Predicate<ToDoItem>() {
+                @Override
+                public boolean test(ToDoItem toDoItem) {
+                    return true;
+                }
+
+            });
+        }
+    }
+
+    public void close ( ActionEvent actionEvent ) {
+        Platform.exit ();
+        System.exit ( 0 );
+    }
+
+    public void about ( ActionEvent actionEvent ) {
+
+        Dialog<ButtonType> dialog = new Dialog<>();
+        dialog.initOwner(mainBorderPane.getScene().getWindow());
+        dialog.setTitle("about");
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        fxmlLoader.setLocation(getClass().getResource("about.fxml"));
+
+        try{
+            dialog.getDialogPane().setContent(fxmlLoader.load());
+        }
+        catch (IOException e)
+        {
+            System.out.println("Can not load dialog");
+            e.printStackTrace();
+            return;
+        }
+
+        dialog.getDialogPane().getButtonTypes().add(ButtonType.OK);
+        dialog.showAndWait ();
+    }
+
+    public void handelPastDue ( ActionEvent actionEvent ) {
+        filterToggleButton.setSelected ( false );
+
+
+        if (pastDueToggleButton.isSelected()) {
+            filteredList.setPredicate(new Predicate<ToDoItem>() {
+                @Override
+                public boolean test(ToDoItem toDoItem) {
+                    return toDoItem.getDeadLine().isAfter ( LocalDate.now());
                 }
 
             });
