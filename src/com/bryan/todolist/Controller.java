@@ -11,11 +11,18 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
+import javafx.scene.text.Text;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 import javafx.util.Callback;
 
 import java.io.IOException;
@@ -272,24 +279,34 @@ public class Controller {
 
     public void about ( ActionEvent actionEvent ) {
 
-        Dialog<ButtonType> dialog = new Dialog<>();
-        dialog.initOwner(mainBorderPane.getScene().getWindow());
-        dialog.setTitle("about");
-        FXMLLoader fxmlLoader = new FXMLLoader();
-        fxmlLoader.setLocation(getClass().getResource("about.fxml"));
+        Stage dialogStage = new Stage();
+        dialogStage.initModality(Modality.WINDOW_MODAL);
 
-        try{
-            dialog.getDialogPane().setContent(fxmlLoader.load());
-        }
-        catch (IOException e)
-        {
-            System.out.println("Can not load dialog");
-            e.printStackTrace();
-            return;
-        }
+        VBox vbox = new VBox(new Text("Hi"), new Button("Ok."));
+        vbox.setAlignment(Pos.CENTER);
+        vbox.setPadding(new Insets(15));
 
-        dialog.getDialogPane().getButtonTypes().add(ButtonType.OK);
-        dialog.showAndWait ();
+        dialogStage.setScene(new Scene(vbox));
+        dialogStage.show();
+
+//        Dialog<ButtonType> dialog = new Dialog<>();
+//        dialog.initOwner(mainBorderPane.getScene().getWindow());
+//        dialog.setTitle("about");
+//        FXMLLoader fxmlLoader = new FXMLLoader();
+//        fxmlLoader.setLocation(getClass().getResource("about.fxml"));
+//
+//        try{
+//            dialog.getDialogPane().setContent(fxmlLoader.load());
+//        }
+//        catch (IOException e)
+//        {
+//            System.out.println("Can not load dialog");
+//            e.printStackTrace();
+//            return;
+//        }
+//
+//        dialog.getDialogPane().getButtonTypes().add(ButtonType.OK);
+//        dialog.showAndWait ();
     }
 
     public void handelPastDue ( ActionEvent actionEvent ) {
@@ -300,7 +317,7 @@ public class Controller {
             filteredList.setPredicate(new Predicate<ToDoItem>() {
                 @Override
                 public boolean test(ToDoItem toDoItem) {
-                    return toDoItem.getDeadLine().isAfter ( LocalDate.now());
+                    return toDoItem.getDeadLine().isBefore ( LocalDate.now());
                 }
 
             });

@@ -31,6 +31,8 @@ public class Main extends Application {
 
     @Override
     public void init() throws Exception {
+        int i = 0;
+        i++;
         try {
             ToDoData.getInstance().loadTodoData();
         }
